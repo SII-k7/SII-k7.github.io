@@ -35,7 +35,9 @@
 ## 3. 页面结构（单页，自上而下）
 
 ### 3.1 导航栏
-左：`KEQI ZHU` 字标；右：About / Research / Publications / Experience / Misc 锚点链接，当前悬停赤陶色。sticky 可选（默认不 sticky，保持安静）。
+左：`KEQI ZHU` 字标；右：About / Research / Publications / Experience / Misc 锚点链接，悬停赤陶色。不做 sticky（保持安静）。
+
+锚点映射：About→Hero（§3.2）、Research→§3.3、Publications→§3.4、Experience→Education+Industry+Honors（§3.5–3.6，锚点定位在 Education 顶部）、Misc→§3.7。
 
 ### 3.2 Hero（已批准 v2 全宽版）
 - 左列：眉标 `ROBOTICS · EMBODIED AI · REINFORCEMENT LEARNING`；72px 衬线 `Keqi Zhu` + 中文名；主文案（Ph.D. at Shanghai Innovation Institute, RL-based humanoid WBC — multi-contact locomotion and manipulation）；斜体副文案（硬件→学习的转型叙事，含 "I build robots that move, and teach them to move well."）；三按钮：Google Scholar（实心）/ GitHub / Email（描边）
