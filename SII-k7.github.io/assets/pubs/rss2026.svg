@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <rect width="500" height="300" fill="#f3efe6"/>
+  <rect x="10" y="10" width="480" height="280" fill="none" stroke="#b3542e" stroke-width="1.5"/>
+  <text x="250" y="140" font-family="Georgia, serif" font-size="42" fill="#b3542e" text-anchor="middle">RSS 2026</text>
+  <text x="250" y="180" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#8a8171" text-anchor="middle">FIGURE COMING SOON</text>
+</svg>
