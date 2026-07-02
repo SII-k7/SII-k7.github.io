@@ -31,13 +31,14 @@ h1 { font-size: 72px; color: var(--ink); margin-top: 22px; line-height: 1.02; fo
 .lede b { color: var(--ink); }
 .sub { font-size: 16.5px; color: var(--muted); line-height: 1.75; margin-top: 16px; max-width: 600px; font-style: italic; }
 .btns { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 38px; font-family: var(--sans); font-size: 13.5px; }
-.btns a { padding: 11px 26px; letter-spacing: 1.5px; border-bottom: none; }
-.btn-solid { background: var(--ink); color: var(--bg); }
-.btn-solid:hover { background: var(--accent); color: var(--bg); }
-.btn-line { border: 1px solid var(--ink); color: var(--ink); }
-.btn-line:hover { background: var(--ink); color: var(--bg); }
-.btn-ghost { border: 1px solid var(--line2); color: var(--muted); }
-.btn-ghost:hover { border-color: var(--ink); color: var(--ink); }
+.btns a { display: inline-flex; align-items: center; justify-content: center; padding: 11px 26px; line-height: 1.2;
+          letter-spacing: 1.5px; border: 1px solid transparent; }
+.btns .btn-solid { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.btns .btn-solid:hover { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.btns .btn-line { border-color: var(--ink); color: var(--ink); }
+.btns .btn-line:hover { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.btns .btn-ghost { border-color: var(--line2); color: var(--muted); }
+.btns .btn-ghost:hover { border-color: var(--ink); color: var(--ink); }
 .hero-photo { flex: 1; max-width: 340px; }
 .photo-wrap { position: relative; }
 .photo-wrap::after { content: ''; position: absolute; top: 16px; left: 16px; right: -16px; bottom: -16px;
